@@ -1,0 +1,30 @@
+{
+  "name": "rocket-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "運載火箭互動圖鑑 — Telemetry Paper 設計語言的 3D 火箭教育平台",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.161.0",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/drei": "^9.114.0",
+    "zustand": "^4.5.4",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.161.0",
+    "typescript": "^5.4.5"
+  }
+}
